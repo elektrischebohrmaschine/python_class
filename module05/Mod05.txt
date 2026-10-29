@@ -1,0 +1,68 @@
+Exercise00 : create_list
+• Create a program called create_list.py.
+• Ensure this program is executable.
+• Define a list of numbers.
+• Display the list on the screen:
+
+    ?> ./create_list.py | cat -e
+    [2, 8, 9, 48, 8, 22, -12, 2]$
+    ?>
+
+
+Exercise01: play_with_lists
+• Create a program called play_with_lists.py.
+• Ensure this program is executable.
+• Define a list of numbers.
+• Iterate over this list, creating a new list by adding 2 to each value in the original
+list.
+• Your program should contain two lists: the original list and the modified list.
+• Display both lists on the screen.
+• For example, if the original list is [2, 8, 9, 48, 8, 22, -12, 2], the output
+should be:
+
+    ?> ./play_with_lists.py
+    Original list: [2, 8, 9, 48, 8, 22, -12, 2]
+    New list: [4, 10, 11, 50, 10, 24, -10, 4]   
+    ?>
+
+Exercise02: play_with_lists++
+• Modify your previous program to process only the values greater than 5 in the
+original list.
+• For example, if your original list is [2, 8, 9, 48, 8, 22, -12, 2], the output
+should be:
+    ?> ./play_with_lists.py | cat -e
+    [2, 8, 9, 48, 8, 22, -12, 2]$
+    [10, 11, 50, 10, 24]$
+    ?>
+
+Exercise 03: play_with_lists+=2
+• Modify your previous program to remove duplicates in the output. You should not
+explicitly remove values from your lists.
+• For this exercise, the use of Set is mandatory.
+• For example, if your original list is [2, 8, 9, 48, 8, 22, -12, 2], the output
+should look like this:
+
+    ?> ./play_with_lists.py | cat -e
+    [2, 8, 9, 48, 8, 22, -12, 2]$
+    {10, 11, 50, 24}$
+    ?>
+
+TIPP: Search about Python sets.
+
+Exercise 04: Parameters
+• Create a program called parameters.py.
+• Ensure this program is executable.
+• The program should display the number of parameters passed to it, followed by a
+newline.
+
+    ?> ./parameters.py
+    Number of parameters: 0.
+    ?> ./parameters.py "initiation"
+    Number of parameters: 1.
+    ?> ./parameters.py "this" "is" "crazy" "there's" "everywhere!"
+    Number of parameters: 5.
+    ?>
+
+TIPP: Refer to the sys.argv list and the len() function.
+
+

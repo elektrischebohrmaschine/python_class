@@ -1,0 +1,75 @@
+Exercise 01: UPCASE_IT
+
+• Create a program called upcase_it.py that takes a string as a parameter.
+• Ensure this program is executable.
+• The program should display the string in uppercase, followed by a newline.
+• If the number of parameters is different from 1, display "none" followed by a newline.
+
+    ?> ./upcase_it.py | cat -e
+    none$
+    ?> ./upcase_it.py "initiation" | cat -e
+    INITIATION$
+    ?> ./upcase_it.py 'This exercise is quite easy!' | cat -e
+    THIS EXERCISE IS QUITE EASY!$
+    ?>
+
+Exercise 02: downcase_it
+• Create a program called downcase_it.py.
+• Ensure this program is executable.
+• The program takes a string as a parameter.
+• It should display the string in lowercase, followed by a newline.
+• If the number of parameters is different from 1, it should display "none" followed
+by a newline.
+
+    ?> ./downcase_it.py | cat -e
+    none$
+    ?> ./downcase_it.py "FIREFLY" | cat -e
+    firefly$
+    ?> ./downcase_it.py 'This exercise is quite easy!' | cat -e
+    this exercise is quite easy!$
+    ?>
+
+Exercise 02: aff_rev_params
+• Create a program called aff_rev_params.py.
+• Ensure this program is executable.
+• When executed, the program should display all the strings passed as parameters,
+followed by a newline, in reverse order.
+• If there are fewer than two parameters, it should display "none" followed by a
+newline.
+
+    ?> ./aff_rev_params.py | cat -e
+    none$
+    ?> ./aff_rev_params.py "coucou" | cat -e
+    none$
+    ?> ./aff_rev_params.py "Python" "piscine" "hello" | cat -e
+    hello$
+    piscine$
+    Python$
+    ?>
+
+
+Exercise04: scan_it
+
+• Create a program called scan_it.py.
+• Ensure this program is executable.
+• This program should take two parameters.
+• The first parameter is a keyword to search for in a string.
+• The second parameter is the string to be searched.
+• When executed, the program should display the number of times the keyword appears in the string.
+• If the number of parameters is different from 2 or if the first string does not appear
+in the second, it should display none followed by a newline.
+
+    ?> ./scan_it.py | cat -e
+    none$
+    ?> ./scan_it.py "the" | cat -e
+    none$
+    ?> ./scan_it.py "the" "hello world" | cat -e
+    none$
+    ?> ./scan_it.py "the" "the quick brown fox jumps over the lazy dog" | cat -e
+    2$
+    ?>
+
+TIPP: You can use the ‘re.findall()‘ method in Python’s ‘re‘ module.
+
+
+blerta
