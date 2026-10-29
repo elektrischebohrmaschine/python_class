@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-list= [123,321,213,231]
+list= [2, 8, 9, 48, 8, 22, -12, 2]
 new_list= []
 
 for x in list:

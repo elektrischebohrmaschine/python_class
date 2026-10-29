@@ -1,0 +1,112 @@
+Exercise 00: UPCASE_IT
+• Create a program called upcase_it.py.
+• Ensure this program is executable (pay attention to permissions).
+• This program should:
+    ◦ Prompt the user to enter a word.
+    ◦ Display the word in uppercase.
+• Example:
+
+    ?> ./upcase_it.py
+    Give me a word: banana
+    BANANA
+    ?>
+
+TIPP: Search for "upcase" in Google.
+
+Exercise 01: Age
+• Create a program called age.py.
+• Ensure this program is executable.
+• This program should:
+    ◦ Prompt the user to enter their age.
+    ◦ Display the user’s current age and their age in 10, 20, and 30 years.
+
+    ?> ./age.py
+    Please tell me your age: 15
+    You are currently 15 years old.
+    In 10 years, you'll be 25 years old.
+    In 20 years, you'll be 35 years old.
+    In 30 years, you'll be 45 years old.
+    ?>
+
+TIPP: Search for "string to integer conversion" in Python.
+
+Exercise 02: Calculator
+• Create a program called calculator.py.
+• Ensure this program is executable.
+• The program should:
+    ◦ Prompt the user to enter two numbers.
+    ◦ Store these numbers as numeric values in two variables.
+    ◦ Display the result of adding, subtracting, dividing, and multiplying these numbers.
+
+    ?> ./calculator.py
+    Give me the first number: 10
+    Give me the second number: 2
+    Thank you!
+    10 + 2 = 12
+    10 - 2 = 8
+    10 / 2 = 5
+    10 * 2 = 20
+    ?>
+
+Exercise 03: Decimal
+• Create a program called float.py.
+• Ensure this program is executable.
+• This program should:
+    ◦ Prompt the user to enter a number.
+    ◦ Determine if the entered number is a decimal or not and display the result.
+
+   ?> ./float.py
+    Give me a number: 42
+    This number is an integer.
+    ?>
+    ?> ./float.py
+    Give me a number: 42.00
+    This number is an integer.
+    ?>
+    ?> ./float.py
+    Give me a number: 42.42
+    This number is a decimal.
+    ?>
+TIPP: search for "string to float"
+
+Exercise 04: I Don’t Like Commas
+• Create a program called round_up.py.
+• Ensure this program is executable.
+• This program should:
+    ◦ Prompt the user to enter a number.
+    ◦ Display the number rounded up.
+
+    ?> ./round_up.py
+    Give me a number: 41.42
+    42
+    ?>
+    ?> ./round_up.py
+    Give me a number: 42
+    42
+    ?>
+    ?> ./round_up.py
+    Give me a number: 0.001
+    1
+    ?>
+
+Exercise 05: Uppercase and Lowercase
+• Create a program called up_low.py.
+• Ensure this program is executable.
+• This program should:
+    ◦ Prompt the user to enter a string.
+    ◦ Display the string with uppercase letters changed to lowercase and vice versa.
+
+    ?> ./up_low.py
+    Hello World
+    hELLO wORLD
+    ?>
+    ?> ./up_low.py
+    aaaaAAAA
+    AAAAaaaa
+    ?>
+    ?> ./up_low.py
+    hello 42
+    HELLO 42
+    ?>
+
+    

@@ -1,0 +1,25 @@
+Exercise 00 : The basic
+• Create a folder named discovery_piscine at the root of your home directory, and
+navigate into it.
+• Create a new folder named module0 and move into that folder.
+• Withing module0, create a new folder called ex00. Do not put anything in it.
+• From this point onward, ensure that each exercise is located in its correct folder
+
+tIPP: Complete this exercise using mkdir and cd; otherwise, it won’t serve
+its purpose. :)
+
+Exercise 01 : My first script
+• Create a script named 42.py.
+• When executed, the script should display “42” followed by a newline.
+    
+    ?> python3 42.py | cat -e
+    42$
+    ?>
+
+Exercise 02 : Hello-world
+• Create a script named hello_world.py.
+• When executed, the script should display “Hello World” followed by a newline.
+
+    ?> python3 hello_world.py | cat -e
+    Hello World$
+    ?>

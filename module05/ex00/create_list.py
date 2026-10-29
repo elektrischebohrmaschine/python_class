@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 
-this_list= [187, 420, 67]
+this_list= [2, 8, 9, 48, 8, 22, -12, 2]
 
 print(this_list)

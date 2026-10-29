@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 
-list= [12,3,32,91,2,8,-13,23,-1]
-nw_list= []
+list= [2, 8, 9, 48, 8, 22, -12, 2]
+new_list= [for x in list if x >5]
 
-for x in list:
-	if x > 5:
-		nw_list.append(x)
 
 print("Original list: ", list)
-print("changed list: ", nw_list)
-
+print("Eddited list: ", set(new_list))

@@ -1,0 +1,47 @@
+Exercise 00 : Displaying a name
+• Create a script called name.py.
+• Define a variable named first_name and initialize it with your first name.
+• Define a variable named last_name and initialize it with your last name.
+• Display both variables in the output, followed by a newline.
+    
+    ?> python3 name.py | cat -e
+    Arthur Dent$
+    ?>
+
+Exercise 01 : Displaying a name improved
+
+• Modify your script name.py. (Remember to copy it to the correct submission
+directory first!)
+• Update your script to concatenate your first name and last name, assigning the
+result to a new variable called whole_name.
+• Display the whole_name variable, followed by a new line.
+
+    ?> python3 name.py | cat -e
+    Arthur Dent$
+    ?>  
+
+TIPP: Refer to the man page for cp.
+TIPP: Look up how to concatenate strings in Python.
+
+Exercise 02: Displaying your age in 42 years
+• Create a script called age.py.
+• In your script, add your age and 42, and assign the result to a new variable called
+my_age.
+• Display the my_age variable, followed by a new line.
+
+    ?> python3 age.py | cat -e
+    67$
+    ?>
+
+Exercise 03: What’s your name
+• Create a script calledwhatsyourname.py.
+• This script should prompt the user to enter their first name, then their last name,
+and finally display both.
+
+    ?> python3 whatsyourname.py
+    Hey, what's your first name? : Arthur
+    And your last name? : Dent
+    Well, pleased to meet you, Arthur Dent.
+    ?>
+
+

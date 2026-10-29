@@ -1,0 +1,90 @@
+Exercise 00: Am I Null?
+• Create a program called iszero.py.
+• Ensure this program is executable (pay attention to the file permissions).
+• When executed, the program should prompt the user to enter a number
+• If the number is equal to zero, the program should display: "This number is equal
+to zero."
+• If the number is not equal to zero, the program should display: "This number is
+different from zero."
+
+    ?> ./iszero.py
+    42
+    This number is different from zero.
+    ?> ./iszero.py
+    0
+    This number is equal to zero.
+    ?>
+
+TIPP: There’s a small line to add at the beginning of your file to let the
+shell know how to interpret the the script. Search for "Making a
+Python Script Executable".
+
+Exercise 01: Am I Negative?
+• Create a program called isneg.py.
+• Ensure this program is executable.
+• When executed, the program should prompt the user to enter a number.
+• If the number is negative, the program should display "This number is negative."
+• If the number is positive, the program should display "This number is positive."
+• If the number is equal to zero, the program should display "This number is both
+positive and negative."
+
+    ?> ./isneg.py
+    42
+    This number is positive.
+    ?> ./isneg.py
+    -42
+    This number is negative.
+    ?> ./isneg.py
+    0
+    This number is both positive and negative.
+    ?>
+
+Exercise 02: Passwords
+• Create a program called password.py.
+• Ensure this program is executable.
+• Define a variable containing a password.
+    password = "Python is awesome"
+• When executed, the program should prompt the user to enter a password.
+• If the password is correct, the program should display: "ACCESS GRANTED".
+• If the password is incorrect, the program should display: "ACCESS DENIED".
+    
+    ?> ./password.py
+    1234
+    ACCESS DENIED
+    ?> ./password.py
+    Python is awesome
+    ACCESS GRANTED
+    ?>
+
+
+Exercise 03: Multiplication
+• Create a program called mult.py.
+• Ensure this program is executable.
+• When executed, the program should prompt the user to enter 2 numbers.
+• The program should:
+    ◦ Display whether the result of multiplying the two numbers is positive, negative, 
+    or zero.
+    ◦ Display the result of the multiplication.
+    
+    $ ./mult.py
+    Enter the first number:
+    42
+    Enter the second number:
+    42
+    42 x 42 = 1764
+    The result is positive.
+    $ ./mult.py
+    Enter the first number:
+    78
+    Enter the second number:
+    -1
+    78 x -1 = -78
+    The result is negative.
+    $ ./mult.py
+    Enter the first number:
+    72
+    Enter the second number:
+    0
+    72 x 0 = 0
+    The result is positive and negative.
+
