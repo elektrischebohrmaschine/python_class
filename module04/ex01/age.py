@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-user_age= input("Pls enter ur age:")
-age = int(user_age)
+age= int(input("Pls enter ur age:"))
 
 print("You are currently ", age, "years old")
 print("In 10 years, you will be ", age+10, "years old")

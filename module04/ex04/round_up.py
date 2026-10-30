@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-user_input = input("Enter a number")
-number= float(user_input)
+number= float(input("Enter a number"))
 
 if number % 1 == 0:
 	print(number)

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-u_input= input("Pls enter a number")
-
-num= float(u_input)
+num= float(input("Pls enter a number"))
 
 if num % 1 == 0:
 	print("This number is whole")
