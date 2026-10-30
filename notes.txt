@@ -1,2 +1,16 @@
 copy: 
     im ordner cpdatei.txt ../wohin
+
+smh i like how i fixed it differently (not correctly tho):
+
+user_input = input("Say something ")
+if user_input.lower().strip() != "none":
+	index = user_input.find(' ')
+	
+	if index != -1:
+		result = user_input[:index]
+	else:
+		result = user_input
+	print(result)
+else:
+	exit(0)
