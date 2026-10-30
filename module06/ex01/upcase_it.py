@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 
-input= input("Say smth ")
+import sys
 
-print(input.upper())
+print(sys.argv[1].upper())
