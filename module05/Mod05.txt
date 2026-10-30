@@ -17,8 +17,9 @@ Exercise01: play_with_lists
 list.
 • Your program should contain two lists: the original list and the modified list.
 • Display both lists on the screen.
-• For example, if the original list is [2, 8, 9, 48, 8, 22, -12, 2], the output
-should be:
+
+    For example, if the original list is [2, 8, 9, 48, 8, 22, -12, 2], the output
+    should be:
 
     ?> ./play_with_lists.py
     Original list: [2, 8, 9, 48, 8, 22, -12, 2]

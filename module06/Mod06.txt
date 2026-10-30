@@ -1,3 +1,16 @@
+EXERCISE 00: Exercise 00: Display First Parameter
+• Create a program called aff_first_param.py.
+• Ensure this program is executable.
+• The program should display the first string parameter passed, followed by a newline.
+• If there are no parameters, display "none" followed by a newline.
+
+    ?> ./aff_first_param.py | cat -e
+    none$
+    ?> ./aff_first_param.py "Code Ninja" "Numeric" "42" | cat -e
+    Code Ninja$
+    ?>
+
+
 Exercise 01: UPCASE_IT
 
 • Create a program called upcase_it.py that takes a string as a parameter.
@@ -29,7 +42,7 @@ by a newline.
     this exercise is quite easy!$
     ?>
 
-Exercise 02: aff_rev_params
+Exercise 03: aff_rev_params
 • Create a program called aff_rev_params.py.
 • Ensure this program is executable.
 • When executed, the program should display all the strings passed as parameters,
@@ -48,7 +61,7 @@ newline.
     ?>
 
 
-Exercise04: scan_it
+Exercise 04: scan_it
 
 • Create a program called scan_it.py.
 • Ensure this program is executable.
